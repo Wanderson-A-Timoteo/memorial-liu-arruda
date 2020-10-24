@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./style/style.css">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
             integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
             crossorigin="anonymous">
 
-    <title>Memorial Liu Arruda</title>
+    <title>Login | Memorial Liu Arruda</title>
 
 </head>
 
@@ -52,46 +50,41 @@
         </nav>   
     </header>
 
-    <main>
-        <div class="container">
-            <h1 class="text-center p-xl-5">ESPIA AÍ!</h3>
+    <main class="container p-xl-5 mb-5">
+        <div class="container col-md-4 col-sm-6">
+            <div class="row">
+                <div class="col-md-offset-4">
+                    <h1 class="text-center login-title p-xl-3">Faça login para continuar</h1>
+                <div class="account-wall">
 
-            <p class="text-justify p-4">
-                Excêntrico, criativo, crítico, peculiar, talentoso, irreverente, único. Definições que podem representar a consagração para qualquer artista. Termos que podem, facilmente, descrever Liu Arruda. No próximo dia 24 de outubro, completa-se 20 anos da morte do ator que se inspirou no cotidiano da, hoje, tricentenária capital cuiabana para alcançar o sucesso, e que ainda assim, segue vivo no imaginário da sociedade.
-            </p>
+                <form class="form-signin mb-5" method="post">
+                    <div class="mb-3">
+                        <input type="text" name="login" class="form-control" id="form-login" placeholder="Email" required autofocus>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" name="password" class="form-control" id="form-password" placeholder="Password" required>
+                    </div>
+                    
+                    <input type="submit" value="Sign in" class="btn btn-lg btn-primary btn-block" />
 
-            <P class="text-justify p-4">
-                Liu Arruda é na verdade Elonil de Arruda. Filho de Nilson de Arruda e Tanita Marques 
-                de Pinho Arruda, era o caçula e o único cuiabano entre os dez filhos do casal. 
-                Deu o ar da graça no mundo dia 30 de maio de 1957 e, desde então, esbanjou 
-                criatividade e inteligência por onde passou.
-            </P>
-            <p class="text-justify p-4">
-                Mesmo criança, seu raciocínio era rápido e tinha sempre bons argumentos. 
-                Sua destreza com as palavras e as pessoas é confirmada pela irmã mais velha, 
-                Cleuza Adjacira Helena de Arruda. Elonil sempre foi bom de resposta e muito 
-                engraçado. Era o palhaço da família., comenta.
-            </p>
-
-            <div id="botoes" class="p-5 mb-5">
-                <a href="video/Depoimento Sobre Liu Arrura.mp4" rel="noopener noreferrer">
-                    <button type="button" class="btn btn-outline-secondary">
-                        <i class="fas fa-play"></i>
-                        ASSISTIR AGORA
-                    </button>
-                </a>
-
-                <a href="liuarruda.html" rel="noopener noreferrer">
-                    <button type="button" class="btn btn-outline-secondary">
-                        <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
-                    </button>
-                </a>
+                    <div class="mb-3">
+                        <label class="checkbox pull-left">
+                        
+                            <input type="checkbox" value="remember-me">
+                            Lembrar
+                        </label>
+                    
+                        <a href="ajuda.html" class="pull-right need-help">Precisa de ajuda? </a><span class="clearfix"></span>
+                    </div>
+                </form>
+            </div>
+            </div>
+                <a href="cadastro.html" class="text-center new-account">Criar uma conta </a>
             </div>
         </div>
     </main>
 
-    <footer class="fixed">
+    <footer class="fixed-bottom">
       <div class="navbar navbar-inverse navbar-fixed-bottom bg-dark text-white p-3" role="navegation">
         <span class="">Memorial Liu Arruda</span>
           Site desenvolvido para prestar uma singela homenagem ao artista LIU ARRUDA
@@ -99,7 +92,7 @@
         <a href="Termos-uso.html"> <strong> Termos de Uso </strong></a>
         <a href="politica-privacidade.html"> <strong> Política de Privacidade </strong></a>
       </div>
-      </footer>
+    </footer>
 
     <script src="https://kit.fontawesome.com/e492f64087.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
@@ -114,3 +107,4 @@
 
 </body>
 </html>
+
